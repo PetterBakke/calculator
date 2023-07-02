@@ -15,7 +15,7 @@ function App() {
       return;
     }
     setCalc(calc + value);
-
+//
     if (!ops.includes(value)) {
       setResult(eval(calc + value).toFixed(2));
     }
